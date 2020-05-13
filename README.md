@@ -5,6 +5,8 @@ Integrated Wideband Lambda Controller with Bosch CJ125 and LSU 4.9<br/>
 4-Layer highly integrated design - hand soldering possible but only recommended to people with really experienced soldering skills<br/>
 supports 4 cylinder full sequential<br/>
 
+More infos coming soon....<br/>
+
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
 
 
