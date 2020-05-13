@@ -11,7 +11,7 @@ supports 4 cylinder full sequential<br/>
 1 hall input for camshaft sensor<br/>
 6 analog inputs: CLT, IAT, TPS, BAT, LMM, MAP<br/>
 1 optional baro sensor MPXH6400A on bottom side<br/>
-1 digital input: launch control<br/>
+1 digital input for disco swaggering (aka. launch control)<br/>
 
 Onboard Wideband Lambda Controller with Bosch CJ125 (LSU 4.9)<br/>
 
