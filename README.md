@@ -2,6 +2,7 @@
 BlitzboxBL49sp<br/>
 low-cost and mini-sized ECU for speeduino firmware (45.1 x 55.1 mm)<br/>
 Integrated Wideband Lambda Controller with Bosch CJ125 and LSU 4.9<br/>
+4-Layer highly integrated design - hand soldering possible but only recommended to people with really experienced soldering skills<br/>
 supports 4 cylinder full sequential<br/>
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
