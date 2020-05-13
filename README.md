@@ -9,6 +9,7 @@ More infos coming soon....<br/>
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
 
+Quick link to schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/V0.0.1/schematics.pdf <br/>
 
 <p align="center">
   <img src="hardware/Rev0.0.1/top.png" width="350" title="Top Side">
