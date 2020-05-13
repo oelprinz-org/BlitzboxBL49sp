@@ -5,6 +5,21 @@ Integrated Wideband Lambda Controller with Bosch CJ125 and LSU 4.9<br/>
 4-Layer highly integrated design - hand soldering possible but only recommended to people with really experienced soldering skills<br/>
 supports 4 cylinder full sequential<br/>
 
+4 injectors<br/>
+4 active ignition coils or 1 passive ignition coil with separate ground plane<br/>
+1 crankshaft sensor with VR-conditioner<br/>
+1 hall input for camshaft sensor<br/>
+6 analog inputs: CLT, IAT, TPS, BAT, LMM, MAP (alternative MPXH6400A on bottom side or any other sensor via jumper header)<br/>
+1 digital input: launch control<br/>
+
+Onboard Wideband Lambda Controller with Bosch CJ125 (LSU 4.9)<br/>
+
+1 fuel pump out<br/>
+1 idle valve out<br/>
+1 tacho out<br/>
+
+USB programming interface with CP2104<br/>
+
 More infos coming soon....<br/>
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
