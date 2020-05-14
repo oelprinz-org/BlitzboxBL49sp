@@ -1863,7 +1863,7 @@ void setPinMapping(byte boardID)
         pinTachOut = 10; //Tacho output pin
         pinIdle1 = 11; //Single wire idle control
         //pinIdle2 = 10; //2 wire idle control
-        pinFuelPump = 23; //Fuel pump output
+        pinFuelPump = 3; //Fuel pump output
         //pinVVT_1 = 11; //Default VVT output
         //pinStepperDir = 32; //Direction pin  for DRV8825 driver
         //pinStepperStep = 31; //Step pin for DRV8825 driver
