@@ -25,7 +25,7 @@ USB programming interface with CP2104<br/>
 More infos coming soon....<br/>
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
-
+<br/>
 Quick link to Rev0.0.1 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.1/schematics.pdf <br/>
 
 <p align="center">
@@ -40,6 +40,8 @@ Quick link to Rev0.0.1 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp
 </p>
 <br/>
 <p align="center">
+  <br/>
+Quick link to Rev0.0.2 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.2/schematics.pdf <br/>
   Rev0.0.2 with NCV1124<br/>
 <br/>
   <img src="hardware/Rev0.0.2/top.png" width="350" title="Top Side">
