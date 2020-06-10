@@ -38,3 +38,14 @@ Quick link to Rev0.0.1 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp
   <img src="hardware/Rev0.0.1/top_layer.png" width="350" title="Top Side">
   <img src="hardware/Rev0.0.1/bottom_layer.png" width="350" alt="accessibility text">
 </p>
+
+<p align="center">
+  Rev0.0.2 with NCV1124<br/>
+
+  <img src="hardware/Rev0.0.2/top.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.0.2/bottom.png" width="350" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.0.2/internal_plane1.png" width="350" title="Internal Plane 1">
+  <img src="hardware/Rev0.0.2/internal_plane2.png" width="350" title="Internal Plane 2">
+  <img src="hardware/Rev0.0.2/top_layer.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.0.2/bottom_layer.png" width="350" alt="accessibility text">
+</p>
