@@ -7,7 +7,7 @@ supports 4 cylinder full sequential<br/>
 
 4 high impedance injectors<br/>
 4 active ignition coils or 1 passive ignition coil with separate ground plane<br/>
-1 crankshaft sensor with VR-conditioner (two revisions: MAX9924 or NCV1124)<br/>
+1 crankshaft sensor with MAX9924 VR-conditioner<br/>
 1 hall input for camshaft sensor<br/>
 6 analog inputs: CLT, IAT, TPS, BAT, LMM, MAP<br/>
 1 optional baro sensor MPXH6400A on bottom side<br/>
@@ -41,13 +41,4 @@ Quick link to Rev0.0.3 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp
 <br/>
 <p align="center">
   <br/>
-Quick link to Rev0.0.2 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.2/schematics.pdf <br/>
-  Rev0.0.2 with NCV1124<br/>
-<br/>
-  <img src="hardware/Rev0.0.2/top.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.0.2/bottom.png" width="350" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.0.2/internal_plane1.png" width="350" title="Internal Plane 1">
-  <img src="hardware/Rev0.0.2/internal_plane2.png" width="350" title="Internal Plane 2">
-  <img src="hardware/Rev0.0.2/top_layer.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.0.2/bottom_layer.png" width="350" alt="accessibility text">
 </p>
