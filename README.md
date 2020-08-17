@@ -29,8 +29,7 @@ More infos coming soon....<br/>
 Quick link to Rev0.0.3 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.3/schematics.pdf <br/>
 
 <p align="center">
-  Rev0.0.3 with MAX9924<br/>
-<br/>
+  <br/>
   <img src="hardware/Rev0.0.3/top.png" width="350" title="Top Side">
   <img src="hardware/Rev0.0.3/bottom.png" width="350" alt="accessibility text"><br/>
   <img src="hardware/Rev0.0.3/internal_plane1.png" width="350" title="Internal Plane 1">
