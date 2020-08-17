@@ -26,17 +26,17 @@ More infos coming soon....<br/>
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
 <br/>
-Quick link to Rev0.0.1 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.1/schematics.pdf <br/>
+Quick link to Rev0.0.3 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.3/schematics.pdf <br/>
 
 <p align="center">
-  Rev0.0.1 with MAX9924<br/>
+  Rev0.0.3 with MAX9924<br/>
 <br/>
-  <img src="hardware/Rev0.0.1/top.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.0.1/bottom.png" width="350" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.0.1/internal_plane1.png" width="350" title="Internal Plane 1">
-  <img src="hardware/Rev0.0.1/internal_plane2.png" width="350" title="Internal Plane 2">
-  <img src="hardware/Rev0.0.1/top_layer.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.0.1/bottom_layer.png" width="350" alt="accessibility text">
+  <img src="hardware/Rev0.0.3/top.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.0.3/bottom.png" width="350" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.0.3/internal_plane1.png" width="350" title="Internal Plane 1">
+  <img src="hardware/Rev0.0.3/internal_plane2.png" width="350" title="Internal Plane 2">
+  <img src="hardware/Rev0.0.3/top_layer.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.0.3/bottom_layer.png" width="350" alt="accessibility text">
 </p>
 <br/>
 <p align="center">
