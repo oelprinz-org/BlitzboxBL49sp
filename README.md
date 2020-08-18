@@ -1,6 +1,6 @@
 # BlitzboxBL49sp - Preview<br/>
 BlitzboxBL49sp<br/>
-low-cost and mini-sized ECU for speeduino firmware (Rev0.0.3 45 x 55 mm)<br/>
+low-cost and mini-sized ECU for speeduino firmware (Rev0.0.4 45 x 55 mm)<br/>
 Integrated Wideband Lambda Controller with Bosch CJ125 and LSU 4.9<br/>
 4-Layer highly integrated design - hand soldering possible but only recommended to people with really experienced soldering skills.  Hardware is optimized for assembly by professional assembly manufacturer<br/>
 supports 4 cylinder full sequential<br/>
@@ -26,16 +26,16 @@ More infos coming soon....<br/>
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
 <br/>
-Quick link to Rev0.0.3 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.3/schematics.pdf <br/>
+Quick link to Rev0.0.4 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.4/schematics.pdf <br/>
 
 <p align="center">
   <br/>
-  <img src="hardware/Rev0.0.3/top.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.0.3/bottom.png" width="350" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.0.3/internal_plane1.png" width="350" title="Internal Plane 1">
-  <img src="hardware/Rev0.0.3/internal_plane2.png" width="350" title="Internal Plane 2">
-  <img src="hardware/Rev0.0.3/top_layer.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.0.3/bottom_layer.png" width="350" alt="accessibility text">
+  <img src="hardware/Rev0.0.4/top.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.0.4/bottom.png" width="350" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.0.4/internal_plane1.png" width="350" title="Internal Plane 1">
+  <img src="hardware/Rev0.0.4/internal_plane2.png" width="350" title="Internal Plane 2">
+  <img src="hardware/Rev0.0.4/top_layer.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.0.4/bottom_layer.png" width="350" alt="accessibility text">
 </p>
 <br/>
 <p align="center">
