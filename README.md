@@ -20,7 +20,7 @@ Onboard Wideband Lambda Controller with Bosch CJ125 (LSU 4.9)<br/>
 1 tacho out<br/>
 1 boost out<br/>
 
-USB programming interface with CP2104<br/>
+USB programming interface with CP2102<br/>
 
 More infos coming soon....<br/>
 
