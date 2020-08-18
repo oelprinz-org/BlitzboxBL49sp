@@ -1,0 +1,166 @@
+Partlist
+
+Exported from blitzboxBL49sp_max.sch at 18.08.2020 15:24
+
+EAGLE Version 8.0.0 Copyright (c) 1988-2017 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value            Device          Package          Library                 Sheet
+
+C1       1n               C-EUC0402       C0402            rcl                     1
+C2       18p              C-EUC0402       C0402            rcl                     1
+C3       18p              C-EUC0402       C0402            rcl                     1
+C4       22u              C-EUC0805       C0805            rcl                     1
+C5       220n             C-EUC0402       C0402            rcl                     1
+C6       22u              C-EUC0805       C0805            rcl                     1
+C7       1n               C-EUC0402       C0402            rcl                     1
+C8       2n2              C-EUC0402       C0402            rcl                     1
+C9       100n             C-EUC0402       C0402            rcl                     1
+C10      1u               C-EUC0402       C0402            rcl                     1
+C11      220n             C-EUC0402       C0402            rcl                     1
+C12      1u               C-EUC0402       C0402            rcl                     1
+C13      100n             C-EUC0402       C0402            rcl                     1
+C14      1n               C-EUC0402       C0402            rcl                     1
+C15      1n               C-EUC0402       C0402            rcl                     1
+C16      100n             C-EUC0402       C0402            rcl                     1
+C17      4u7              C-EUC0603       C0603            rcl                     1
+C18      100n             C-EUC0402       C0402            rcl                     1
+C20      18p              C-EUC0402       C0402            rcl                     1
+C22      100n             C-EUC0402       C0402            rcl                     1
+C23      18p              C-EUC0402       C0402            rcl                     1
+C25      100n             C-EUC0402       C0402            rcl                     1
+C26      100n             C-EUC0402       C0402            rcl                     1
+C28      1n               C-EUC0402       C0402            rcl                     1
+C30      1n               C-EUC0402       C0402            rcl                     1
+C34      100n             C-EUC0402       C0402            rcl                     1
+C36      1n               C-EUC0402       C0402            rcl                     1
+C39      220n             C-EUC0402       C0402            rcl                     1
+C40      220n             C-EUC0402       C0402            rcl                     1
+C41      1u               C-EUC0402       C0402            rcl                     1
+C42      1u               C-EUC0402       C0402            rcl                     1
+C45      33n              C-EUC0402       C0402            rcl                     1
+C46      22n              C-EUC0402       C0402            rcl                     1
+C47      1u               C-EUC0402       C0402            rcl                     1
+C49      100n             C-EUC0402       C0402            rcl                     1
+C51      100n             C-EUC0402       C0402            rcl                     1
+C52      100n             C-EUC0402       C0402            rcl                     1
+C65      100n             C-EUC0402       C0402            rcl                     1
+C66      100n             C-EUC0402       C0402            rcl                     1
+C67      4u7              C-EUC0603       C0603            rcl                     1
+C68      100n             C-EUC0402       C0402            rcl                     1
+C82      33n              C-EUC0402       C0402            rcl                     1
+C107     100n             C-EUC0402       C0402            rcl                     1
+D1       LM4041DIM3-1.2   LM4041A12DBZ    DBZ_R-PDSO-G3    texas                   1
+D2       SS54             DIODE-DO-214AC  DO-214AC         diode                   1
+D3       SM4007PL         CGRM4001-G      SOD-123_MINI-SMA diode                   1
+D4       SMBJ22A          SUPPRESSOR-SMBJ SMBJ             diode                   1
+D5       SM4007PL         CGRM4001-G      SOD-123_MINI-SMA diode                   1
+D6       B5819W           CGRM4001-G      SOD-123_MINI-SMA diode                   1
+D7       SM4007PL         CGRM4001-G      SOD-123_MINI-SMA diode                   1
+D8       SM4007PL         CGRM4001-G      SOD-123_MINI-SMA diode                   1
+IC1      ATMEGA2560-16AU  ATMEGA2560-16AU TQFP100          atmel-2005              1
+IC2      ATMEGA328-MU     ATMEGA328-MU    HVQFN32          atmel                   1
+IC3      CJ125_32         CJ125_32        TQFP32-08        cj125                   1
+IC4      FGB3056_F085(NC) FGB3056_F085    TO263            FGB3056_F085            1
+IC5      MP2359           MP2359          SOT23-6          MP2359                  1
+IC6      MAX9924          MAX9924         SO10             max9924                 1
+IC7      ESD5V3U4RRS      ESD5V3U4RRS     SOT363_INFINEON  ESD5V3U4RRS             1
+IC8      ESD5V3U4RRS      ESD5V3U4RRS     SOT363_INFINEON  ESD5V3U4RRS             1
+IC10     TC4424AVOA713    MCP14E10        SO-08            mcp14e10                1
+IC11     TC4424AVOA713    MCP14E10        SO-08            mcp14e10                1
+IC12     NUF2042XV6T1G    NUF2042XV6T1G   SOT?563          NUF2042XV6T1G           1
+IC13     MPXH6400AC6T1    MPXH6400        MPXH6400         MPXH6400                1
+IC14     CP2102           CP2102          MLP28            silabs                  1
+JP2                       PINHD-2X6       2X06             pinhead                 1
+L1       Cmi201209u2r2kt  FERRITE_BEAD603 FB603            dp_devices              1
+L4       LQH32CN4R7M23L   LQH32CN4R7M23L  R1210            LQH32CN4R7M23L          1
+LED1     blau             LEDSML0603      SML0603          led                     1
+LED2     rot              LEDSML0603      SML0603          led                     1
+LED3     gruen            LEDSML0603      SML0603          led                     1
+Q1       AO3400A          BSS123          SOT23            transistor-small-signal 1
+Q2       AO3400A          BSS123          SOT23            transistor-small-signal 1
+Q3       AO3400A          BSS123          SOT23            transistor-small-signal 1
+Q4       AO3400A          BSS123          SOT23            transistor-small-signal 1
+Q5       AO3400A          BSS123          SOT23            transistor-small-signal 1
+Q6       AO3400A          BSS123          SOT23            transistor-small-signal 1
+Q7       AO3400A          BSS123          SOT23            transistor-small-signal 1
+Q8       AO3400A          BSS123          SOT23            transistor-small-signal 1
+Q9       AO3400A          BSS123          SOT23            transistor-small-signal 1
+Q10      AO3400A          BSS123          SOT23            transistor-small-signal 1
+R1       1k               R-EU_R0402      R0402            rcl                     1
+R2       4k7              R-EU_R0402      R0402            rcl                     1
+R3       100k             R-EU_R0402      R0402            rcl                     1
+R4       1k               R-EU_R0402      R0402            rcl                     1
+R5       100k             R-EU_R0402      R0402            rcl                     1
+R6       1k               R-EU_R0402      R0402            rcl                     1
+R7       4k7              R-EU_R0402      R0402            rcl                     1
+R8       1k               R-EU_R0402      R0402            rcl                     1
+R9       100k             R-EU_R0402      R0402            rcl                     1
+R10      47R(NC)          R-EU_R0805      R0805            rcl                     1
+R11      10k              R-EU_R0402      R0402            rcl                     1
+R12      10k              R-EU_R0805      R0805            rcl                     1
+R13      1k               R-EU_R0402      R0402            rcl                     1
+R14      10k              R-EU_R0805      R0805            rcl                     1
+R15      47R              R-EU_R0805      R0805            rcl                     1
+R16      4k7              R-EU_R0402      R0402            rcl                     1
+R17      100k             R-EU_R0402      R0402            rcl                     1
+R18      1k               R-EU_R0402      R0402            rcl                     1
+R19      10k              R-EU_R0402      R0402            rcl                     1
+R20      10k              R-EU_R0402      R0402            rcl                     1
+R21      10k(NC)          R-EU_R0402      R0402            rcl                     1
+R22      100k             R-EU_R0402      R0402            rcl                     1
+R23      B72530V1140S262  VARISTORCN1210  CT/CN1210        varistor                1
+R24      47R              R-EU_R0805      R0805            rcl                     1
+R25      4k7              R-EU_R0402      R0402            rcl                     1
+R26      100k             R-EU_R0402      R0402            rcl                     1
+R27      1k               R-EU_R0402      R0402            rcl                     1
+R30      1k               R-EU_R0402      R0402            rcl                     1
+R32      1k               R-EU_R0402      R0402            rcl                     1
+R34      2k4              R-EU_R0402      R0402            rcl                     1
+R35      2k4              R-EU_R0402      R0402            rcl                     1
+R36      100k             R-EU_R0402      R0402            rcl                     1
+R37      39k              R-EU_R0402      R0402            rcl                     1
+R38      100k             R-EU_R0402      R0402            rcl                     1
+R39      47R              R-EU_R0805      R0805            rcl                     1
+R40      2k4              R-EU_R0402      R0402            rcl                     1
+R47      10k              R-EU_R0402      R0402            rcl                     1
+R48      10k              R-EU_R0402      R0402            rcl                     1
+R49      4k7              R-EU_R0402      R0402            rcl                     1
+R50      100k             R-EU_R0402      R0402            rcl                     1
+R51      4k7              R-EU_R0402      R0402            rcl                     1
+R52      100k             R-EU_R0402      R0402            rcl                     1
+R53      1k               R-EU_R0402      R0402            rcl                     1
+R54      1k               R-EU_R0402      R0402            rcl                     1
+R55      100k             R-EU_R0402      R0402            rcl                     1
+R56      4k7              R-EU_R0402      R0402            rcl                     1
+R57      9k53 1%          R-EU_R0603      R0603            rcl                     1
+R58      49k9 1%          R-EU_R0603      R0603            rcl                     1
+R59      100k             R-EU_R0402      R0402            rcl                     1
+R60      4k7              R-EU_R0402      R0402            rcl                     1
+R61      100k             R-EU_R0402      R0402            rcl                     1
+R62      4k7              R-EU_R0402      R0402            rcl                     1
+R63      100k             R-EU_R0402      R0402            rcl                     1
+R69      4k7              R-EU_R0402      R0402            rcl                     1
+R73      39k              R-EU_R0402      R0402            rcl                     1
+R78      4k7              R-EU_R0402      R0402            rcl                     1
+R79      6k8              R-EU_R0402      R0402            rcl                     1
+R80      100k             R-EU_R0402      R0402            rcl                     1
+R102     300/1%           R-EU_R0603      R0603            rcl                     1
+R103     61R9             R-EU_R0603      R0603            rcl                     1
+R104     10k              R-EU_R0402      R0402            rcl                     1
+R105     31k6/1%          R-EU_R0603      R0603            rcl                     1
+R107     100k             R-EU_R0402      R0402            rcl                     1
+R108     100k             R-EU_R0402      R0402            rcl                     1
+R109     4k7              R-EU_R0402      R0402            rcl                     1
+R110     470k             R-EU_R0402      R0402            rcl                     1
+SJ1                       SJ              SJ               jumper                  1
+SJ2                       SJ              SJ               jumper                  1
+SJ3                       SJ2W            SJ_2             jumper                  1
+SJ4                       SJ2W            SJ_2             jumper                  1
+TP1      TPTP20R          TPTP20R         TP20R            testpad                 1
+TP2      TPTP20R          TPTP20R         TP20R            testpad                 1
+TP3      TPTP20R          TPTP20R         TP20R            testpad                 1
+U$4      X322516MLB4SI    X322516MLB4SI   X322516MLB4SI    X322516MLB4SI           1
+U$7      34P              34P             34P              34p                     1
+U$8      X322516MLB4SI    X322516MLB4SI   X322516MLB4SI    X322516MLB4SI           1
