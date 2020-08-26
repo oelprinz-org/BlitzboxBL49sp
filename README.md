@@ -1,6 +1,6 @@
 # BlitzboxBL49sp - Preview<br/>
 BlitzboxBL49sp<br/>
-low-cost and mini-sized ECU for speeduino firmware (Rev0.0.4a 45 x 55 mm)<br/>
+low-cost and mini-sized ECU for speeduino firmware (Rev0.0.4b 45 x 55 mm)<br/>
 Integrated Wideband Lambda Controller with Bosch CJ125 and LSU 4.9<br/>
 4-Layer highly integrated design - hand soldering possible but only recommended to people with really experienced soldering skills.  Hardware is optimized for assembly by professional assembly manufacturer<br/>
 supports 4 cylinder full sequential<br/>
@@ -27,18 +27,18 @@ More infos coming soon....<br/>
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
 <br/>
-Quick link to Rev0.0.4a schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.4a/schematics.pdf <br/>
+Quick link to Rev0.0.4b schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.4b/schematics.pdf <br/>
 
-Quick link to Rev0.0.4a iBOM (same as Rev0.0.4): https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V0.0.4/iBOM/ibom.html <br/>
+Quick link to Rev0.0.4b iBOM (same as Rev0.0.4): https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V0.0.4/iBOM/ibom.html <br/>
 
 <p align="center">
   <br/>
-  <img src="hardware/Rev0.0.4a/top.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.0.4a/bottom.png" width="350" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.0.4a/internal_plane1.png" width="350" title="Internal Plane 1">
-  <img src="hardware/Rev0.0.4a/internal_plane2.png" width="350" title="Internal Plane 2">
-  <img src="hardware/Rev0.0.4a/top_layer.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.0.4a/bottom_layer.png" width="350" alt="accessibility text">
+  <img src="hardware/Rev0.0.4b/top.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.0.4b/bottom.png" width="350" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.0.4b/internal_plane1.png" width="350" title="Internal Plane 1">
+  <img src="hardware/Rev0.0.4b/internal_plane2.png" width="350" title="Internal Plane 2">
+  <img src="hardware/Rev0.0.4b/top_layer.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.0.4b/bottom_layer.png" width="350" alt="accessibility text">
 </p>
 <br/>
 <p align="center">
