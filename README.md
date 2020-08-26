@@ -29,7 +29,7 @@ More infos coming soon....<br/>
 <br/>
 Quick link to Rev0.0.4b schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.4b/schematics.pdf <br/>
 
-Quick link to Rev0.0.4b iBOM (same as Rev0.0.4): https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V0.0.4/iBOM/ibom.html <br/>
+Quick link to Rev0.0.4b iBOM: https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V0.0.4b/iBOM/ibom.html <br/>
 
 <p align="center">
   <br/>
