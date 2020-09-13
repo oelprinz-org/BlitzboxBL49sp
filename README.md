@@ -1,6 +1,6 @@
 # BlitzboxBL49sp - Preview<br/>
 BlitzboxBL49sp<br/>
-low-cost and mini-sized ECU for speeduino firmware (Rev0.0.5 45 x 58 mm)<br/>
+ultra-low-cost and mini-sized ECU for speeduino firmware (Rev0.0.5 45 x 58 mm)<br/>
 Integrated Wideband Lambda Controller with Bosch CJ125 and LSU 4.9<br/>
 4-Layer highly integrated design - hand soldering possible but only recommended to people with really experienced soldering skills.  Hardware is optimized for assembly by professional assembly manufacturer<br/>
 supports 4 cylinder full sequential<br/>
@@ -27,9 +27,9 @@ More infos coming soon....<br/>
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
 <br/>
-Quick link to Rev0.0.4c schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.5/schematics.pdf <br/>
+Quick link to Rev0.0.5 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.5/schematics.pdf <br/>
 
-Quick link to Rev0.0.4c iBOM: https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V0.0.5/iBOM/ibom.html <br/>
+Quick link to Rev0.0.5 iBOM: https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V0.0.5/iBOM/ibom.html <br/>
 
 <p align="center">
   <br/>
