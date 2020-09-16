@@ -33,7 +33,7 @@ Quick link to Rev0.0.6 iBOM: https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V
 
 <p align="center">
   <br/>
-  <img src="hardware/Rev0.0.6/production_snapshot.png" width="700" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.0.6/production_snapshot.png" width="710" alt="accessibility text"><br/>
   <img src="hardware/Rev0.0.6/top.png" width="350" title="Top Side">
   <img src="hardware/Rev0.0.6/bottom.png" width="350" alt="accessibility text"><br/>
   <img src="hardware/Rev0.0.6/internal_plane1.png" width="350" title="Internal Plane 1">
