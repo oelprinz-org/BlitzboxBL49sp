@@ -1,0 +1,162 @@
+Part Value            Device          Package          Description                                  
+C1   1n               C-EUC0402       C0402            CAPACITOR, European symbol                   
+C2   18p              C-EUC0402       C0402            CAPACITOR, European symbol                   
+C3   18p              C-EUC0402       C0402            CAPACITOR, European symbol                   
+C4   22u              C-EUC0805       C0805            CAPACITOR, European symbol                   
+C5   220n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C6   22u              C-EUC0805       C0805            CAPACITOR, European symbol                   
+C7   1n               C-EUC0402       C0402            CAPACITOR, European symbol                   
+C8   2n2              C-EUC0402       C0402            CAPACITOR, European symbol                   
+C9   100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C10  1u               C-EUC0402       C0402            CAPACITOR, European symbol                   
+C11  220n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C12  100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C13  100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C14  1n               C-EUC0402       C0402            CAPACITOR, European symbol                   
+C15  1n               C-EUC0402       C0402            CAPACITOR, European symbol                   
+C16  100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C17  10u              C-EUC0805       C0805            CAPACITOR, European symbol                   
+C18  100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C19  4u7              C-EUC0603       C0603            CAPACITOR, European symbol                   
+C20  18p              C-EUC0402       C0402            CAPACITOR, European symbol                   
+C22  100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C23  18p              C-EUC0402       C0402            CAPACITOR, European symbol                   
+C25  100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C26  100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C28  1n               C-EUC0402       C0402            CAPACITOR, European symbol                   
+C29  18p              C-EUC0402       C0402            CAPACITOR, European symbol                   
+C30  1n               C-EUC0402       C0402            CAPACITOR, European symbol                   
+C34  100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C36  1n               C-EUC0402       C0402            CAPACITOR, European symbol                   
+C39  220n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C40  220n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C41  1u               C-EUC0402       C0402            CAPACITOR, European symbol                   
+C42  1u               C-EUC0402       C0402            CAPACITOR, European symbol                   
+C45  33n              C-EUC0402       C0402            CAPACITOR, European symbol                   
+C46  22n              C-EUC0402       C0402            CAPACITOR, European symbol                   
+C47  1u               C-EUC0402       C0402            CAPACITOR, European symbol                   
+C49  100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C51  100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C52  100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C65  100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C66  100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C67  4u7              C-EUC0603       C0603            CAPACITOR, European symbol                   
+C68  100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+C82  33n              C-EUC0402       C0402            CAPACITOR, European symbol                   
+C107 100n             C-EUC0402       C0402            CAPACITOR, European symbol                   
+D1   LM4041DIM3-1.2   LM4041A12DBZ    DBZ_R-PDSO-G3    PRECISION MICROPOWER SHUNT VOLTAGE REFERENCE 
+D2   SS54             DIODE-DO-214AC  DO-214AC         DIODE                                        
+D3   SM4007PL         CGRM4001-G      SOD-123_MINI-SMA Molded plasitc,JEDEC SOD-123/Mini SMA        
+D4   SMBJ22A          SUPPRESSOR-SMBJ SMBJ             Suppressor diode                             
+D5   SM4007PL         CGRM4001-G      SOD-123_MINI-SMA Molded plasitc,JEDEC SOD-123/Mini SMA        
+D6   B5819W           CGRM4001-G      SOD-123_MINI-SMA Molded plasitc,JEDEC SOD-123/Mini SMA        
+D7   SM4007PL         CGRM4001-G      SOD-123_MINI-SMA Molded plasitc,JEDEC SOD-123/Mini SMA        
+D8   SM4007PL         CGRM4001-G      SOD-123_MINI-SMA Molded plasitc,JEDEC SOD-123/Mini SMA        
+IC1  ATMEGA2560-16AU  ATMEGA2560-16AU TQFP100          MICROCONTROLLER                              
+IC2  NUF2221W1        NUF2221W1       SOT363_PHILIPS                                                
+IC3  CJ125_32         CJ125_32        TQFP32-08                                                     
+IC4  FGB3056_F085(NC) FGB3056_F085    TO263                                                         
+IC5  MP2359           MP2359          SOT23-6                                                       
+IC7  ESD0504F         PRTR5V0U4Y      SOT363_PHILIPS                                                
+IC8  ESD0504F         PRTR5V0U4Y      SOT363_PHILIPS                                                
+IC9  CP2102           CP2102          MLP28            Single-Chip USB to UART Bridge               
+IC10 TC4424AVOA713    MCP14E10        SO-08                                                         
+IC11 TC4424AVOA713    MCP14E10        SO-08                                                         
+IC13 MPXH6400AC6T1    MPXH6400        MPXH6400                                                      
+IC14 ATMEGA328P-AU    MEGA8-AI        TQFP32-08        MICROCONTROLLER                              
+JP1                   PINHD-2X7       2X07             PIN HEADER                                   
+JP2                   PINHD-2X3       2X03             PIN HEADER                                   
+L1   Cmi201209u2r2kt  FERRITE_BEAD603 FB603                                                         
+L4   LQH32CN4R7M23L   LQH32CN4R7M23L  R1210                                                         
+LED1 blue             LEDSML0603      SML0603          LED                                          
+LED2 red              LEDSML0603      SML0603          LED                                          
+LED3 green            LEDSML0603      SML0603          LED                                          
+Q1   AO3400A          BSS123          SOT23            N-CHANNEL MOS FET                            
+Q2   AO3400A          BSS123          SOT23            N-CHANNEL MOS FET                            
+Q3   AO3400A          BSS123          SOT23            N-CHANNEL MOS FET                            
+Q4   AO3400A          BSS123          SOT23            N-CHANNEL MOS FET                            
+Q5   AO3400A          BSS123          SOT23            N-CHANNEL MOS FET                            
+Q6   AO3400A          BSS123          SOT23            N-CHANNEL MOS FET                            
+Q7   AO3400A          BSS123          SOT23            N-CHANNEL MOS FET                            
+Q8   AO3400A          BSS123          SOT23            N-CHANNEL MOS FET                            
+Q9   AO3400A          BSS123          SOT23            N-CHANNEL MOS FET                            
+Q10  AO3400A          BSS123          SOT23            N-CHANNEL MOS FET                            
+R1   1k               R-EU_R0402      R0402            RESISTOR, European symbol                    
+R2   4k7              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R3   100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R4   1k               R-EU_R0402      R0402            RESISTOR, European symbol                    
+R5   100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R6   1k               R-EU_R0402      R0402            RESISTOR, European symbol                    
+R7   4k7              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R8   1k               R-EU_R0402      R0402            RESISTOR, European symbol                    
+R9   100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R10  47R(NC)          R-EU_R0805      R0805            RESISTOR, European symbol                    
+R11  10k              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R12  10k              R-EU_R0805      R0805            RESISTOR, European symbol                    
+R13  1k               R-EU_R0402      R0402            RESISTOR, European symbol                    
+R14  10k              R-EU_R0805      R0805            RESISTOR, European symbol                    
+R15  47R              R-EU_R0805      R0805            RESISTOR, European symbol                    
+R16  4k7              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R17  100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R18  1k               R-EU_R0402      R0402            RESISTOR, European symbol                    
+R19  10k              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R20  10k              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R21  10k              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R22  100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R23  B72530V1140S262  VARISTORCN1210  CT/CN1210        VARISTOR                                     
+R24  47R              R-EU_R0805      R0805            RESISTOR, European symbol                    
+R25  4k7              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R26  100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R27  1k               R-EU_R0402      R0402            RESISTOR, European symbol                    
+R28  1k               R-EU_R0402      R0402            RESISTOR, European symbol                    
+R29  1k               R-EU_R0402      R0402            RESISTOR, European symbol                    
+R30  1k               R-EU_R0402      R0402            RESISTOR, European symbol                    
+R31  10k              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R32  1k               R-EU_R0402      R0402            RESISTOR, European symbol                    
+R33  10k              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R34  2k4              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R35  2k4              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R36  100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R37  39k              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R38  100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R39  47R              R-EU_R0805      R0805            RESISTOR, European symbol                    
+R40  2k4              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R41  47R              R-EU_R0805      R0805            RESISTOR, European symbol                    
+R43  430r 1%          R-EU_R0603      R0603            RESISTOR, European symbol                    
+R47  10k              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R48  10k              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R49  4k7              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R50  100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R51  4k7              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R52  100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R53  1k               R-EU_R0402      R0402            RESISTOR, European symbol                    
+R54  1k               R-EU_R0402      R0402            RESISTOR, European symbol                    
+R55  100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R56  4k7              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R57  9k1 1%           R-EU_R0603      R0603            RESISTOR, European symbol                    
+R58  49k9 1%          R-EU_R0603      R0603            RESISTOR, European symbol                    
+R59  100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R60  4k7              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R61  100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R62  4k7              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R63  100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R69  4k7              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R73  39k              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R78  4k7              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R79  6k8              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R80  100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R102 300/1%           R-EU_R0603      R0603            RESISTOR, European symbol                    
+R103 61R9             R-EU_R0603      R0603            RESISTOR, European symbol                    
+R104 10k              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R105 31k6/1%          R-EU_R0603      R0603            RESISTOR, European symbol                    
+R107 100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R108 100k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+R109 4k7              R-EU_R0402      R0402            RESISTOR, European symbol                    
+R110 470k             R-EU_R0402      R0402            RESISTOR, European symbol                    
+SJ2                   SJ2W            SJ_2             SMD solder JUMPER                            
+SJ3                   SJ2W            SJ_2             SMD solder JUMPER                            
+SJ4                   SJ2W            SJ_2             SMD solder JUMPER                            
+U$1  MAX9926QS0P16    MAX9926QS0P16   QSOP16                                                        
+U$4  X322516MLB4SI    X322516MLB4SI   X322516MLB4SI                                                 
+U$7  34P              34P             34P                                                           
+U$8  X322516MLB4SI    X322516MLB4SI   X322516MLB4SI                                                 
