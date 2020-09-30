@@ -1,6 +1,6 @@
 # BlitzboxBL49sp - Preview<br/>
 BlitzboxBL49sp<br/>
-ultra-low-cost and mini-sized ECU for speeduino firmware (Rev0.0.6 45 x 58 mm)<br/>
+ultra-low-cost and mini-sized ECU for speeduino firmware (Rev0.0.7 45 x 58 mm)<br/>
 Integrated Wideband Lambda Controller with Bosch CJ125 and LSU 4.9<br/>
 4-Layer highly integrated design - hand soldering possible but only recommended to people with really experienced soldering skills.  Hardware is optimized for assembly by professional assembly manufacturer<br/>
 supports 4 cylinder full sequential<br/>
@@ -18,7 +18,7 @@ Onboard Wideband Lambda Controller with Bosch CJ125 (LSU 4.9)<br/>
 1 fuel pump out<br/>
 1 idle valve out<br/>
 1 tacho out<br/>
-1 boost out<br/>
+1 boost out (optional with IGN_D out)<br/>
 1 fan out<br/>
 
 USB programming interface with CP2102<br/>
@@ -27,19 +27,19 @@ USB programming interface with CP2102<br/>
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
 <br/>
-Quick link to Rev0.0.6 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.6/schematics.pdf <br/>
+Quick link to Rev0.0.7 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.7/schematics.pdf <br/>
 
-Quick link to Rev0.0.6 iBOM: https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V0.0.6/iBOM/ibom.html <br/>
+Quick link to Rev0.0.7 iBOM: https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V0.0.7/iBOM/ibom.html <br/>
 
 <p align="center">
   <br/>
-  <img src="hardware/Rev0.0.6/production_snapshot.png" width="710" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.0.6/top.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.0.6/bottom.png" width="350" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.0.6/internal_plane1.png" width="350" title="Internal Plane 1">
-  <img src="hardware/Rev0.0.6/internal_plane2.png" width="350" title="Internal Plane 2">
-  <img src="hardware/Rev0.0.6/top_layer.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.0.6/bottom_layer.png" width="350" alt="accessibility text">
+  <img src="hardware/Rev0.0.7/production_snapshot.png" width="710" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.0.7/top.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.0.7/bottom.png" width="350" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.0.7/internal_plane1.png" width="350" title="Internal Plane 1">
+  <img src="hardware/Rev0.0.7/internal_plane2.png" width="350" title="Internal Plane 2">
+  <img src="hardware/Rev0.0.7/top_layer.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.0.7/bottom_layer.png" width="350" alt="accessibility text">
 </p>
 <br/>
 <p align="center">
