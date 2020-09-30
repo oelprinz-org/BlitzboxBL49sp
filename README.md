@@ -35,7 +35,7 @@ Quick link to Rev0.0.7 iBOM: https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V
 
 <p align="center">
   <br/>
-  <img src="hardware/Rev0.0.7/production_snapshot.png" width="710" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.0.7/2020-09-30-Board-BlitzboxBL49sp-V0.0.7.png" width="710" alt="accessibility text"><br/>
   <img src="hardware/Rev0.0.7/top.png" width="350" title="Top Side">
   <img src="hardware/Rev0.0.7/bottom.png" width="350" alt="accessibility text"><br/>
   <img src="hardware/Rev0.0.7/internal_plane1.png" width="350" title="Internal Plane 1">
