@@ -24,7 +24,7 @@ Onboard Wideband Lambda Controller with Bosch CJ125 (LSU 4.9)<br/>
 USB programming interface with CP2102<br/>
 
 16.09.2020: Version 0.0.6 has gone into production - More infos coming soon....<br/>
-30.09.2020: initial function tests of V0.0.6 have been made. Further tests still have to be done . Some minor improvements will lead to next version V0.0.7<br/>
+30.09.2020: First initial tests of V0.0.6 have been made. Further tests still have to be done. Until now there was no significant or uncorrectable error in V0.0.6. Some minor improvements will lead to next version V0.0.7<br/>
 
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
