@@ -36,7 +36,7 @@ Quick link to Rev0.0.8 iBOM: https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V
 
 <p align="center">
   <br/>
-  <img src="hardware/Rev0.0.6/size_comparation.jpg" width="710" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.0.8/size_comparison.jpg" width="710" alt="accessibility text"><br/>
   <img src="hardware/Rev0.0.8/2021-01-01-Board-Blitzbox-V0.0.8.png" width="710" alt="accessibility text"><br/>
   <img src="hardware/Rev0.0.8/top.png" width="350" title="Top Side">
   <img src="hardware/Rev0.0.8/bottom.png" width="350" alt="accessibility text"><br/>
