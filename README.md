@@ -25,8 +25,8 @@ USB programming interface with CP2102<br/>
 
 16.09.2020: Version 0.0.6 has gone into production - More infos coming soon....<br/>
 30.09.2020: First initial tests of V0.0.6 have been made. Further tests still have to be done. Until now there was no significant or uncorrectable error in V0.0.6. Some minor improvements will lead to next version V0.0.7<br/>
-01.01.2021: Happy new year - Version 0.0.8 has been released
-20.05.2021: Version 0.0.9 has been released
+01.01.2021: Happy new year - Version 0.0.8 has been released<br/>
+20.05.2021: Version 0.0.9 has been released<br/>
 
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
