@@ -27,24 +27,25 @@ USB programming interface with CP2102<br/>
 30.09.2020: First initial tests of V0.0.6 have been made. Further tests still have to be done. Until now there was no significant or uncorrectable error in V0.0.6. Some minor improvements will lead to next version V0.0.7<br/>
 01.01.2021: Happy new year - Version 0.0.8 has been released<br/>
 20.05.2021: Version 0.0.9 has been released<br/>
+26.05.2021: Version 0.1.0 has been released<br/>
 
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
 <br/>
-Quick link to Rev0.0.9 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.0.9/schematics.pdf <br/>
+Quick link to Rev0.1.0 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.1.0/schematics.pdf <br/>
 
-Quick link to Rev0.0.9 iBOM: https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V0.0.9/iBOM/ibom.html <br/>
+Quick link to Rev0.1.0 iBOM: https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V0.1.0/iBOM/ibom.html <br/>
 
 <p align="center">
   <br/>
-  <img src="hardware/Rev0.0.9/size_comparison.jpg" width="710" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.0.9/2021-05-20-Board-Blitzbox-V0.0.9.png" width="710" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.0.9/top.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.0.9/bottom.png" width="350" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.0.9/internal_plane1.png" width="350" title="Internal Plane 1">
-  <img src="hardware/Rev0.0.9/internal_plane2.png" width="350" title="Internal Plane 2">
-  <img src="hardware/Rev0.0.9/top_layer.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.0.9/bottom_layer.png" width="350" alt="accessibility text">
+  <img src="hardware/Rev0.1.0/size_comparison.jpg" width="710" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.1.0/2021-05-26-Board-Blitzbox-V0.1.0.png" width="710" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.1.0/top.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.1.0/bottom.png" width="350" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.1.0/internal_plane1.png" width="350" title="Internal Plane 1">
+  <img src="hardware/Rev0.1.0/internal_plane2.png" width="350" title="Internal Plane 2">
+  <img src="hardware/Rev0.1.0/top_layer.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.1.0/bottom_layer.png" width="350" alt="accessibility text">
 </p>
 <br/>
 <p align="center">
