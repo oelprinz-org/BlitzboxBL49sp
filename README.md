@@ -35,7 +35,7 @@ USB programming interface with CP2102<br/>
 <br/>
 Quick link to Rev0.1.1 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.1.1/schematics.pdf <br/>
 
-Quick link to Rev0.1.0 iBOM: https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V0.1.0/iBOM/ibom.html <br/>
+TBD: Quick link to Rev0.1.1 iBOM: https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V0.1.1/iBOM/ibom.html <br/>
 
 <p align="center">
   <br/>
