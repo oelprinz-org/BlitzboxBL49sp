@@ -1,6 +1,6 @@
 # blitzBOX - Preview<br/>
 <br/>
-ultra-low-cost and mini-sized ECU for speeduino firmware (Rev0.1.1 45 x 58 mm)<br/>
+ultra-low-cost and mini-sized ECU for speeduino firmware (Rev0.1.2 45 x 58 mm)<br/>
 Integrated Wideband Lambda Controller with Bosch CJ125 and LSU 4.9<br/>
 4-Layer highly integrated design - hand soldering possible but only recommended to people with really experienced soldering skills.  Hardware is optimized for assembly by professional assembly manufacturer<br/>
 supports 4 cylinder full sequential<br/>
@@ -29,24 +29,25 @@ USB programming interface with CP2102<br/>
 20.05.2021: Version 0.0.9 has been released<br/>
 26.05.2021: Version 0.1.0 has been released<br/>
 26.08.2021: Version 0.1.1 has been released<br/>
+07.12.2021: Version 0.1.2 has been released<br/>
 
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
 <br/>
-Quick link to Rev0.1.1 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.1.1/schematics.pdf <br/>
+Quick link to Rev0.1.2 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.1.2/schematics.pdf <br/>
 
-TBD: Quick link to Rev0.1.1 iBOM: https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V0.1.1/iBOM/ibom.html <br/>
+TBD: Quick link to Rev0.1.2 iBOM: https://oelprinz.000webhostapp.com/BlitzboxBL49sp/V0.1.2/iBOM/ibom.html <br/>
 
 <p align="center">
   <br/>
-  <img src="hardware/Rev0.1.1/size_comparison.jpg" width="710" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.1.1/2021-08-26-Board-Blitzbox-V0.1.1.png" width="710" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.1.1/top.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.1.1/bottom.png" width="350" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.1.1/internal_plane1.png" width="350" title="Internal Plane 1">
-  <img src="hardware/Rev0.1.1/internal_plane2.png" width="350" title="Internal Plane 2">
-  <img src="hardware/Rev0.1.1/top_layer.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.1.1/bottom_layer.png" width="350" alt="accessibility text">
+  <img src="hardware/Rev0.1.2/size_comparison.jpg" width="710" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.1.2/2021-08-26-Board-Blitzbox-V0.1.1.png" width="710" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.1.2/top.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.1.2/bottom.png" width="350" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.1.2/internal_plane1.png" width="350" title="Internal Plane 1">
+  <img src="hardware/Rev0.1.2/internal_plane2.png" width="350" title="Internal Plane 2">
+  <img src="hardware/Rev0.1.2/top_layer.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.1.2/bottom_layer.png" width="350" alt="accessibility text">
 </p>
 <br/>
 <p align="center">
