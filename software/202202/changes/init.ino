@@ -1965,8 +1965,8 @@ case 42:
       pinCoil2 = 25; //Pin for coil 2
       pinCoil3 = 23; //Pin for coil 3
       pinCoil4 = 22; //Pin for coil 4
-      pinTrigger = 21; //The CRANK Sensor pin
-      pinTrigger2 = 20; //The Cam Sensor pin
+      pinTrigger = 19; //The CRANK Sensor pin
+      pinTrigger2 = 18; //The Cam Sensor pin
       //pinFlex = 20; // Flex sensor
       pinTPS = A0; //TPS input pin
       pinSpareTemp1 = A1; //LMM sensor pin
