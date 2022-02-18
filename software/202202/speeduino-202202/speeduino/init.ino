@@ -1973,9 +1973,9 @@ case 42:
       pinO2 = A2; //O2 Sensor pin
       pinIAT = A3; //IAT sensor pin
       pinCLT = A4; //CLT sensor pin
-      pinMAP = A5; //MAP sensor pin
+      pinMAP = A7; //internal MAP sensor
       pinBat = A6; //Battery reference voltage pin
-      pinBaro = A7; //Baro sensor pin
+      pinBaro = A5; //external MAP/Baro sensor pin
       //pinO2_2 = A9; //O2 sensor pin (second sensor)
       pinLaunch = 2; //Can be overwritten below
       //pinDisplayReset = 48; // OLED reset pin PLACEHOLDER value for now
