@@ -30,6 +30,9 @@ USB programming interface with CP2102<br/>
 26.05.2021: Version 0.1.0 has been released<br/>
 26.08.2021: Version 0.1.1 has been released<br/>
 07.12.2021: Version 0.1.2 has been released<br/>
+25.04.2022: Version 0.1.2 is running on a real car after two corrections which can be done manually. See correction proposals on issues here in GitHub. 
+
+Next and hopefully final version will follow up soon.
 
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
