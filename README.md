@@ -32,6 +32,7 @@ USB programming interface with CP2102<br/>
 07.12.2021: Version 0.1.2 has been released<br/>
 25.04.2022: Version 0.1.2 is running on a real car after two corrections which can be done manually. See correction proposals on issues tab here in GitHub. 
 Next and hopefully final version will follow up soon.
+06.05.2022: Final version is getting closer. Also added some information how to wire the connector (interactive page): http://oelprinz.org/products/BlitzboxBL49sp/documentation/V0.1.2/wiki/pinout_V0.1.2_Connector_top_side.html . More information/documentation coming soon
 
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
