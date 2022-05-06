@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+.pin-marker {
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  background-color: white;
+  border: 0.21vw black solid;
+  cursor: pointer;
+  color: black;
+  text-align: center;
+  line-height: 200%;
+}
+
+[data-type*="12v"],
+[data-type*="12V"] {
+  border-color: yellow;
+}
+
+[data-type*="5v"],
+[data-type*="5V"] {
+  border-color: red;
+}
+
+[data-type*="at"] {
+  border-color: green;
+}
+
+[data-type*="av"] {
+  border-color: brown;
+}
+
+[data-type*="can"] {
+  border-color: blue;
+}
+
+[data-type*="din"] {
+  border-color: lime;
+}
+
+[data-type*="etb"] {
+  border-color: darkcyan;
+}
+
+[data-type*="gnd"] {
+  border-color: darkgreen;
+}
+
+[data-type*="gp_high"] {
+  border-color: aqua;
+}
+
+[data-type*="gp_low"] {
+  border-color: aquamarine;
+}
+
+[data-type*="gp_pp"] {
+  border-color: cyan;
+}
+
+[data-type*="hall"] {
+  border-color: darkolivegreen;
+}
+
+[data-type*="hl"] {
+  border-color: gold;
+}
+
+[data-type*="hs"] {
+  border-color: indigo;
+}
+
+[data-type*="IGN"] {
+  border-color: magenta;
+}
+
+[data-type*="INJ"] {
+  border-color: maroon;
+}
+
+[data-type*="ls"] {
+  border-color: lightgreen;
+}
+
+[data-type*="mr"] {
+  border-color: firebrick;
+}
+
+[data-type*="pgnd"] {
+  border-color: coral;
+}
+
+[data-type*="sgnd"] {
+  border-color: olive;
+}
+
+[data-type*="USB"] {
+  border-color: lightseagreen;
+}
+
+[data-type*="VR"] {
+  border-color: sienna;
+}
+
+#board-link {
+ font-size: 24px;
+}
+
+.pin-marker:hover {
+  transform: scale(2);
+  z-index: 2;
+}
+
+.pin-marker.highlight {
+  background-color: #fc935a;
+}
+
+.pin-marker.selected {
+  background-color: #f15a24;
+  color: white;
+}
+
+.connector-container {
+  width: 100%;
+  overflow-x: scroll;
+  position: relative;
+  height: max(3in, 50vh);
+}
+
+.connector-div {
+  height: 100%;
+  position: relative;
+  z-index: 0;
+  width: max-content;
+}
+
+.connector-img {
+  height: 100%;
+  min-width: 100%;
+}
+
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: clamp(100%, 100%, 1000px);
+  text-align: left;
+}
+
+@media (min-width: 1000px) {
+  table {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  table {
+    word-wrap: break-word;
+    font-size: 2.5rem;
+  }
+}
+
+table tbody tr {
+  cursor: pointer;
+}
+
+@media screen {
+  td.pin-data {
+    border-color: black;
+  }
+}
+
+table td, table th {
+    border: 1px solid black;
+  padding: 8px;
+}
+
+table tr:nth-child(even){
+  background-color: #fc935a;
+}
+
+table tr:hover {
+  background-color: #f15a24;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #f15a24;
+  color: black;
+}
+
+.info-table {
+  display: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: black;
+    color: white;
+  }
+
+  td.pin-data {
+    border: 1px solid #ddd;
+  }
+
+  table td, table th {
+    border: 1px solid #ddd;
+  }
+
+  table th {
+    color: white;
+  }
+
+  table tr:nth-child(even){
+    background-color: #230c00;
+    color: white;
+  }
+
+  table tr:hover {
+    background-color: #f15a24;
+  }
+
+  a {
+    color: #71b7ff;
+  }
+
+  a:visited {
+    color: #71b7ff;
+  }
+}
+
+@media print {
+  .container {
+    height: 99vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .info-table, .ts-data, .ts-header, .type-data, .type-header, .color-data, .color-header, thead {
+    display: none;
+  }
+  .connector-container {
+    flex: 0 1 auto;
+    height: unset;
+    min-height: 2in;
+  }
+  .connector-div {
+    max-width: 100%;
+    height: unset;
+  }
+  .connector-img {
+    max-width: 100% !important;
+    max-height: 3in;
+  }
+  h2 {
+    font-size: 14px;
+  }
+  th {
+    font-size: 12px;
+  }
+  td {
+    font-size: 10px;
+  }
+  td:not(.pin-data) {
+    border: none !important;
+  }
+  td.pin-data {
+    border-width: 3px;
+    border-radius: 10px;
+    width: 10px;
+    margin: 0px;
+    padding: 0px;
+  }
+  html, tr {
+    background-color: white !important;
+    color: black !important;
+  }
+  table {
+    width: auto;
+    border-collapse: separate;
+  }
+  .table-wrapper { 
+    column-count: 4;
+  }
+  table, tbody, tr {
+    display: block;
+  }
+  #board-link {
+    display: none;
+  }
+}
+</style>
+
+<script type="text/javascript">
+var connectorData = [
+`{ "pins": [ 
+{ "pin": 1, "function": "Injector 3", "class": "digital output", "color": "not defined", "ts_name": "INJ3", "type": "INJ" },
+{ "pin": 2, "function": "Injector 4", "class": "digital output", "color": "not defined", "ts_name": "INJ4", "type": "INJ" },
+{ "pin": 3, "function": "Tachometer Output", "type": "TACHO", "ts_name": "TACHO_OUT", "color": "not defined" },
+{ "pin": 4, "function": "Fuel Pump Output", "type": "FP", "ts_name": "FP_OUT", "color": "not defined" },
+{ "pin": 5, "function": "Idle Valve Output", "type": "IDV", "ts_name": "IDV_OUT", "color": "not defined" }, 
+{ "pin": 6, "function": "VR-", "type": "VR","class": "sensor input", "color": "not defined" }, 
+{ "pin": 7, "function": "USB D-", "type": "USB", "color": "white" },
+{ "pin": 8, "function": "USB D+", "type": "USB", "color": "green" }, 
+{ "pin": 9, "function": "Ignition 1", "class": "digital output", "color": "not defined", "ts_name": "IGN1", "type": "IGN" }, 
+{ "pin": 10, "function": "Injector 2", "class": "digital output", "color": "not defined", "ts_name": "INJ2", "type": "INJ" },
+{ "pin": 11, "function": "UN ( Lambda Sonde Pin Pin 6 black )", "type": "LAMBDA","class": "sensor input", "color": "black" },
+{ "pin": 12, "function": "Mass Air Flow Sensor", "type": "MAF","class": "analog input", "ts_name": "MAF", "color": "not defined" },
+{ "pin": 13, "function": "TPS", "type": "TPS","class": "analog input", "ts_name": "TPS", "color": "not defined" },
+{ "pin": 14, "function": "MAP Sensor", "type": "MAP","class": "analog input", "ts_name": "MAP", "color": "not defined" },
+{ "pin": 15, "function": "VR+", "type": "VR","class": "sensor input", "color": "not defined" }, 
+{ "pin": 16, "function": "USB +5V", "type": "USB", "color": "red" },
+{ "pin": 17, "function": "USB GND", "type": "USB", "color": "black" }, 
+{ "pin": 18, "function": "HEAT- ( Lambda Sonde Pin 3 white )", "type": "LAMBDA","class": "sensor input", "color": "white" },
+{ "pin": 19, "function": "VM ( Lambda Sonde Pin 2 yellow )", "type": "LAMBDA","class": "sensor input", "color": "yellow" },
+{ "pin": 20, "function": "CLT", "type": "CLT","class": "analog input", "ts_name": "CLT", "color": "not defined" },
+{ "pin": 21, "function": "IAT", "type": "IAT","class": "analog input", "ts_name": "IAT", "color": "not defined" },
+{ "pin": 22, "function": "+5V Sensor Supply", "type": "5VSUPPLY", "color": "red" },
+{ "pin": 23, "function": "CAM Input", "type": "HALL","class": "sensor input", "color": "not defined" },
+{ "pin": 24, "function": "Launch Control", "class": "digital input", "color": "not defined", "ts_name": "LAUNCH", "type": "DIGITALINPUT" }, 
+{ "pin": 25, "function": "IGN4 / BOOST / separate IGN Ground Plane internal driver for IGN1", "id": "XXX", "class": "digital output", "color": "not defined", "ts_name": "IGN4 / BOOST", "type": "IGN" },
+{ "pin": 26, "function": "Injector 1", "class": "digital output", "color": "not defined", "ts_name": "INJ1", "type": "INJ" },
+{ "pin": 27, "function": "Fan Output", "type": "FAN", "ts_name": "FAN_OUT", "color": "not defined" },
+{ "pin": 28, "function": "IA ( Lambda Sonde Pin 5 green )", "type": "LAMBDA","class": "sensor input", "color": "green" },
+{ "pin": 29, "function": "IP ( Lambda Sonde Pin 1 red )", "type": "LAMBDA","class": "sensor input", "color": "red" }, 
+{ "pin": 30, "function": "+12V", "type": "+12V", "color": "not defined" }, 
+{ "pin": 31, "function": "GND", "type": "GND", "color": "not defined" },
+{ "pin": 32, "function": "GND", "type": "GND", "color": "not defined" }, 
+{ "pin": 33, "function": "Ignition 3", "id": "XXX", "class": "digital output", "color": "not defined", "ts_name": "IGN3", "type": "IGN" },
+{ "pin": 34, "function": "Ignition 2", "id": "XXX", "class": "digital output", "color": "not defined", "ts_name": "IGN2", "type": "IGN" }
+            ]
+, "info": { "title": "BlitzBoxBL49sp V0.1.2", "name": "BlitzBoxBL49sp V0.1.2 Main Connector (mounted on top side)", "id": "main", "image": { "file": "images/mainconnector.jpg" }, "pins": [ 
+{ "pin": 1, "x": 450, "y": 550 }, 
+{ "pin": 2, "x": 600, "y": 550 }, 
+{ "pin": 3, "x": 750, "y": 550 }, 
+{ "pin": 4, "x": 900, "y": 550 }, 
+{ "pin": 5, "x": 1050, "y": 550 }, 
+{ "pin": 6, "x": 1200, "y": 550 }, 
+{ "pin": 7, "x": 1350, "y": 550 }, 
+{ "pin": 8, "x": 1500, "y": 550 }, 
+{ "pin": 9, "x": 1650, "y": 550 }, 
+{ "pin": 10, "x": 530, "y": 740 }, 
+{ "pin": 11, "x": 680, "y": 740 }, 
+{ "pin": 12, "x": 830, "y": 740 }, 
+{ "pin": 13, "x": 980, "y": 740 }, 
+{ "pin": 14, "x": 1130, "y": 740 }, 
+{ "pin": 15, "x": 1280, "y": 740 }, 
+{ "pin": 16, "x": 1430, "y": 740 }, 
+{ "pin": 17, "x": 1580, "y": 740 }, 
+{ "pin": 18, "x": 530, "y": 930 }, 
+{ "pin": 19, "x": 680, "y": 930 }, 
+{ "pin": 20, "x": 830, "y": 930 }, 
+{ "pin": 21, "x": 980, "y": 930 }, 
+{ "pin": 22, "x": 1130, "y": 930 }, 
+{ "pin": 23, "x": 1280, "y": 930 }, 
+{ "pin": 24, "x": 1430, "y": 930 }, 
+{ "pin": 25, "x": 1580, "y": 930 }, 
+{ "pin": 26, "x": 450, "y": 1100 }, 
+{ "pin": 27, "x": 600, "y": 1100 }, 
+{ "pin": 28, "x": 750, "y": 1100 }, 
+{ "pin": 29, "x": 900, "y": 1100 }, 
+{ "pin": 30, "x": 1050, "y": 1100 }, 
+{ "pin": 31, "x": 1200, "y": 1100 }, 
+{ "pin": 32, "x": 1350, "y": 1100 }, 
+{ "pin": 33, "x": 1500, "y": 1100 }, 
+{ "pin": 34, "x": 1650, "y": 1100 } ] } }`,
+
+
+
+ `{ "pins": [ 
+ { "pin": 1, "function": "Internal +5V", "ts_name": "+5V" }, 
+ { "pin": 2, "function": "GND", "ts_name": "GND" }, 
+ { "pin": 3, "function": "Wideband Lambda Controller - ISP MISO ", "ts_name": "MISO_BL" }, 
+ { "pin": 4, "function": "MAP", "ts_name": "MAP" }, 
+ { "pin": 5, "function": "Wideband Lambda Controller - ISP SCK", "ts_name": "SCK_BL" }, 
+ { "pin": 6, "function": "Speeduino Controller - ISP MISO", "ts_name": "MISO_PR" }, 
+ { "pin": 7, "function": "Wideband Lambda Controller - ISP MOSI", "ts_name": "MOSI_BL" }, 
+ { "pin": 8, "function": "Speeduino Controller - ISP SCK", "ts_name": "SCK_PR" }, 
+ { "pin": 9, "function": "Reset Line (ISP RST both controllers)", "ts_name": "RST" }, 
+ { "pin": 10, "function": "Speeduino Controller - ISP MOSI", "ts_name": "MOSI_PR" }, 
+ { "pin": 11, "function": "Speeduino Controller - TXD3", "ts_name": "TXD3" }, 
+ { "pin": 12, "function": "Speeduino Controller - RXD3", "ts_name": "RXD3" },
+ { "pin": 13, "function": "Wideband Lambda Controller - RXD", "ts_name": "RXD_BL" },
+ { "pin": 14, "function": "Wideband Lambda Controller - TXD", "ts_name": "TXD_BL" } ]
+ 
+ , "info": { "image": { "file": "images/pinheader1.jpg" }, 
+ "pins": [ 
+ { "pin": 1, "x": 260, "y": 100 }, 
+ { "pin": 2, "x": 370, "y": 100 }, 
+ { "pin": 3, "x": 260, "y": 220 }, 
+ { "pin": 4, "x": 370, "y": 220 }, 
+ { "pin": 5, "x": 260, "y": 340 }, 
+ { "pin": 6, "x": 370, "y": 340 }, 
+ { "pin": 7, "x": 260, "y": 460 }, 
+ { "pin": 8, "x": 370, "y": 460 }, 
+ { "pin": 9, "x": 260, "y": 580 }, 
+ { "pin": 10, "x": 370, "y": 580 }, 
+ { "pin": 11, "x": 260, "y": 700 }, 
+ { "pin": 12, "x": 370, "y": 700 }, 
+ { "pin": 13, "x": 260, "y": 820 }, 
+ { "pin": 14, "x": 370, "y": 820 } ] } } `,
+ 
+ 
+ 
+ `{ "pins": [ 
+ { "pin": "1", "id": "SDA", "class": "not defined", "function": "SDA", "ts_name": "not defined" }, 
+ { "pin": "2", "id": "SCL", "class": "not defined", "function": "SCL", "ts_name": "not defined" }, 
+ { "pin": "3", "id": "+5V", "class": "not defined", "function": "+5V", "ts_name": "not defined" }, 
+ { "pin": "4", "id": "GND", "class": "not defined", "function": "GND", "ts_name": "not defined" }, 
+ { "pin": "5", "id": "nc", "class": "not defined", "function": "not defined", "ts_name": "not defined" },
+ { "pin": "6", "id": "Baro", "class": "not defined", "function": "Baro", "ts_name": "not defined" } ]
+ 
+ , "info": { "image": { "file": "images/pinheader2.jpg" }, 
+ "pins": [ 
+ { "pin": "1", "x": 350, "y": 250 }, 
+ { "pin": "2", "x": 350, "y": 160 },
+ { "pin": "3", "x": 260, "y": 250 }, 
+ { "pin": "4", "x": 260, "y": 160 }, 
+ { "pin": "5", "x": 170, "y": 250 }, 
+ { "pin": "6", "x": 170, "y": 160 } ] } } `,
+///DATA///
+];
+
+function hideEmptyColumns(table) {
+  var rows = table.querySelector('tbody').children;
+  var tableHead = table.querySelector("thead>tr")
+  var cols = tableHead.children
+  for (var i = 0; i < cols.length; i++) {
+    var empty = true;
+    for (var ii = 0; ii < rows.length; ii++) {
+      empty = rows[ii].children[i].textContent.length > 0 ? false : empty;
+    }
+    if (empty) {
+      tableHead.querySelectorAll('th')[i].style.display = 'none';
+      for (var ii = 0; ii < rows.length; ii++) {
+        rows[ii].children[i].style.display = 'none';
+      }
+    } else {
+      tableHead.querySelectorAll('th')[i].style.display = '';
+      for (var ii = 0; ii < rows.length; ii++) {
+        rows[ii].children[i].style.display = '';
+      }
+    }
+  }
+}
+
+function addRow(table, pin, cid) {
+  var template = document.getElementById("table-template");
+  var clone = template.content.cloneNode(true);
+  var row = clone.querySelector(".data");
+  var cells = row.children;
+  for (var i = 0; i < cells.length; i++) {
+    var cell = cells[i];
+    cell.textContent = Array.isArray(pin[cell.dataset.field]) ? pin[cell.dataset.field].join(", ") : pin[cell.dataset.field];
+  }
+  clone.querySelector(".pin-data").dataset.type = pin.type;
+  if (pin.pdiv) {
+    row.addEventListener('click', function(table, pin, cid) {
+      var container;
+      for (var elem = table; elem && elem !== document; elem = elem.parentNode) {
+        if (elem.matches(".container")) {
+          var container = elem;
+        };
+      }
+      clickPin(container.querySelector(".info-table tbody"), pin, cid);
+      container.scrollIntoView()
+    }.bind(null, table, pin, cid));
+  }
+  table.appendChild(clone);
+}
+
+function clickPin(table, pin, cid) {
+  table.parentElement.style.display = "table";
+  table.innerHTML = "";
+  addRow(table, pin, cid);
+  var pins = document.querySelectorAll(".pin-marker");
+  for (var i = 0; i < pins.length; i++) {
+    if (pins[i].dataset.type == pin.type) {
+      pins[i].classList.add("highlight");
+    } else {
+      pins[i].classList.remove("highlight");
+    }
+    pins[i].classList.remove("selected");
+  }
+  pin.pdiv.classList.add("selected");
+  hideEmptyColumns(table.parentElement);
+  if (typeof(cid) != "undefined") {
+    var url = new URL(window.location);
+    url.searchParams.set("connector", cid);
+    url.searchParams.set("pin", pin.pin);
+    window.history.pushState({}, "", url)
+  } else {
+    var url = new URL(window.location);
+    url.search = "";
+    window.history.pushState({}, "", url)
+  }
+}
+function checkparams() {
+  var params = new URLSearchParams(window.location.search);
+  var connector = params.get("connector");
+  var pin = params.get("pin");
+  for (var i = 0; i < connectorData.length; i++) {
+    var c = connectorData[i];
+    if (c.info.id == connector) {
+      var table = document.querySelectorAll(".info-table tbody")[i];
+      for (var iii = 0; iii < c.pins.length; iii++) {
+        if (c.pins[iii].pin == pin) {
+          clickPin(table, c.pins[iii], c.info.id);
+          return;
+        }
+      }
+      return;
+    }
+  }
+}
+
+var images = 0;
+
+function checkImagesLoaded() {
+  images -= 1;
+  if (images == 0) {
+    checkparams();
+  }
+}
+
+window.addEventListener('load', function() {
+  window.onpopstate = function(ev) {
+    if (event.state) {
+      checkparams();
+    }
+  };
+  for (var c = 0; c < connectorData.length; c++) {
+    connectorData[c] = JSON.parse(connectorData[c]);
+    var connector = connectorData[c];
+    var template = document.getElementById("connector-template");
+    var clone = template.content.cloneNode(true);
+    document.body.appendChild(clone);
+    var sdiv = document.body.lastChild.previousSibling;
+    var img = sdiv.querySelector(".connector-img");
+    images += 1;
+    img.addEventListener('load', function(connector, sdiv, img) {
+      var cdiv = sdiv.querySelector(".connector-div");
+      var cid = connector.info.id;
+      var ptemplate = document.getElementById("pin-template");
+      var imgHeight = img.naturalHeight;
+      var imgWidth = img.naturalWidth;
+      var table = sdiv.querySelector(".info-table").querySelector("tbody");
+      var fullTable = sdiv.querySelector(".pinout-table").querySelector("tbody");
+      for (var i = 0; i < connector.pins.length; i++) {
+        var pin = connector.pins[i];
+        if (!pin.pin) {
+          continue;
+        }
+        var pinfo = {};
+        for (var ii = 0; ii < connector.info.pins.length; ii++) {
+          if (connector.info.pins[ii].pin == pin.pin) {
+            pinfo = connector.info.pins[ii];
+            break;
+          }
+        }
+        if (!pinfo.x) {
+          addRow(fullTable, connector.pins[i], cid);
+          continue;
+        }
+        var closest = 1000000;
+        for (var ii = 0; ii < connector.info.pins.length; ii++) {
+          var tinfo = connector.info.pins[ii];
+          var distance = Math.pow((tinfo.x - pinfo.x), 2) + Math.pow((tinfo.y - pinfo.y), 2);
+          if (tinfo.pin != pin.pin && (!closest || distance < closest)) {
+            closest = distance;
+          }
+        }
+        var pclone = ptemplate.content.cloneNode(true);
+        var pdiv = pclone.querySelector("div");
+        pdiv.textContent = pinfo.pin;
+        pdiv.style.top = ((pinfo.y / imgHeight) * 100) + "%";
+        pdiv.style.left = ((pinfo.x / imgWidth) * 100) + "%";
+        pdiv.dataset.type = pin.type;
+        pin.pdiv = pdiv;
+        pdiv.addEventListener("click", function(table, pin, cid) {
+          clickPin(table, pin, cid);
+        }.bind(null, table, pin, cid));
+        closest = Math.sqrt(closest);
+        var divheight = cdiv.clientHeight;
+        var divwidth = cdiv.clientWidth;
+        var mult = cdiv.querySelector("img").naturalHeight / divheight;
+        var newheight = (closest / mult)
+        var pxheight = divheight * 0.08;
+        if (newheight < pxheight) {
+          pxheight = newheight;
+        }
+        var height = (pxheight / divheight) * 100;
+        var width = (pxheight / divwidth) * 100;
+        pdiv.style.height = "calc(" + height + "% - 0.21vw)";
+        pdiv.style.width = "calc(" +  width + "% - 0.21vw)";
+        pdiv.style.marginTop = "-" + (width / 2) + "%";
+        pdiv.style.marginLeft = "-" + (width / 2) + "%";
+        pdiv.style.fontSize = (height * 1.8) + "px";
+        pdiv.style.fontSize = (pxheight * 0.5) + "px";
+        window.addEventListener('beforeprint', function(pdiv, width, divwidth, event) {
+          pdiv.style.fontSize = "calc(calc(" + width + "px * min(640, "  + divwidth + ")) * 0.0055)";
+        }.bind(null, pdiv, width, divwidth));
+        window.addEventListener('afterprint', function(pdiv, pxheight, event) {
+          pdiv.style.fontSize = (pxheight * 0.5) + "px";
+        }.bind(null, pdiv, pxheight));
+        cdiv.appendChild(pdiv);
+        addRow(fullTable, pin, cid);
+      }
+      hideEmptyColumns(sdiv.querySelector('.pinout-table'));
+      checkImagesLoaded();
+    }.bind(null, connector, sdiv, img));
+    img.src = connector.info.image.file;
+    if (document.title.length == 0 && typeof(connector.info.title) != "undefined") {
+      document.title = connector.info.title;
+    }
+    if (typeof(connector.info.board_url) != "undefined" && document.title.length > 0) {
+      document.getElementById("board-link").innerText = document.title;
+      document.getElementById("board-link").href = connector.info.board_url;
+    }
+    if (typeof(connector.info.name) != "undefined") {
+      sdiv.querySelector(".connector-name").innerText = connector.info.name;
+    }
+  }
+});
+</script>
+</head>
+<body>
+
+<template id="pin-template">
+  <div class="pin-marker"></div>
+</template>
+
+<template id="table-template">
+  <tr class="data">
+    <td class="pin-data" data-field="pin"></td>
+    <td class="ts-data" data-field="ts_name"></td>
+    <td class="type-data" data-field="type"</td>
+    <td class="function-data" data-field="function"></td>
+    <td class="color-data" data-field="color"></td>
+  </tr>
+</template>
+
+<template id="connector-template">
+  <div class="container">
+    <h2 class="connector-name"></h2>
+    <div class="connector-container">
+      <div class="connector-div">
+        <img class="connector-img"></img>
+      </div>
+    </div>
+    <table class="info-table">
+      <thead>
+        <tr>
+          <th class="pin-header" data-field="pin">Pin Number</th>
+          <th class="ts-header" data-field="ts_name">TS Name</th>
+          <th class="type-header" data-field="type">Type</th>
+          <th class="function-header" data-field="function">Typical Function</th>
+          <th class="color-header" data-field="color">Pigtail Color</th>
+        </tr>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <h2>Full Pinout Table</h2>
+    <div class="table-wrapper">
+      <table class="pinout-table">
+        <thead>
+          <tr>
+            <th class="pin-header" data-field="pin">Pin Number</th>
+            <th class="ts-header" data-field="ts_name">TS Name</th>
+            <th class="type-header" data-field="type">Type</th>
+            <th class="function-header" data-field="function">Typical Function</th>
+            <th class="color-header" data-field="color">Pigtail Color</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</template>
+
+<a id="board-link"></a>
+
+</body>
+</html>
