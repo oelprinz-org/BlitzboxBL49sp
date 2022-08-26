@@ -7,7 +7,7 @@ supports 4 cylinder full sequential<br/>
 
 4 high impedance injectors<br/>
 4 active ignition coils<br/>
-1 crankshaft sensor with MAX9926 VR-conditioner<br/>
+1 crankshaft sensor with MAX9926 VR-conditioner (optional Hall Input without MAX9926)<br/>
 1 hall input for camshaft sensor<br/>
 6 analog inputs: CLT, IAT, TPS, BAT, LMM, MAP<br/>
 1 optional baro sensor MPXH6400A on connector side of pcb<br/>
