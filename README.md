@@ -44,16 +44,17 @@ Quick link to Rev0.1.2 iBOM: http://oelprinz.org/products/BlitzboxBL49sp/hardwar
 
 <p align="center">
   <br/>
-  <img src="hardware/Rev0.1.3/2022-08-26-Board-Blitzbox-V0.1.2_top.png" width="710" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.1.3/2022-08-26-Board-Blitzbox-V0.1.2_bottom.png" width="710" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.1.3/2022-08-26-Board-Blitzbox-V0.1.3.png" width="710" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.1.3/top.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.1.3/bottom.png" width="350" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.1.3/2022-08-26-Board-Blitzbox-V0.1.2_top.png" width="710" alt="Board-Blitzbox-V0.1.2_top"><br/>
+  <img src="hardware/Rev0.1.3/2022-08-26-Board-Blitzbox-V0.1.2_bottom.png" width="710" alt="Board-Blitzbox-V0.1.2_bottom"><br/>
+  <img src="hardware/Rev0.1.3/2022-08-26-Board-Blitzbox-V0.1.3.png" width="710" alt="Board-Blitzbox-V0.1.3"><br/>
+  <img src="hardware/Rev0.1.3/top.png" width="350" title="top">
+  <img src="hardware/Rev0.1.3/bottom.png" width="350" alt="bottom"><br/>
   <img src="hardware/Rev0.1.3/internal_plane1.png" width="350" title="Internal Plane 1">
   <img src="hardware/Rev0.1.3/internal_plane2.png" width="350" title="Internal Plane 2">
-  <img src="hardware/Rev0.1.3/top_layer.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.1.3/bottom_layer.png" width="350" alt="accessibility text">
-  <img src="hardware/Rev0.1.3/assembly_solderside.png" width="710" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.1.3/top_layer.png" width="350" title="top_layer">
+  <img src="hardware/Rev0.1.3/bottom_layer.png" width="350" alt="bottom_layer">
+  <img src="hardware/Rev0.1.3/assembly_solderside.png" width="710" alt="assembly_solderside"><br/>
+  <img src="hardware/Rev0.1.3/assembly_bottomside.png" width="710" alt="assembly_bottomside"><br/>
 </p>
 <br/>
 <p align="center">
