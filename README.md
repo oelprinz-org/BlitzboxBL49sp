@@ -1,12 +1,12 @@
 # blitzBOX - Preview<br/>
 <br/>
-ultra-low-cost and mini-sized ECU for speeduino firmware (Rev0.1.2 45 x 58 mm)<br/>
+ultra-low-cost and mini-sized ECU for speeduino firmware (Rev0.1.3 45 x 58 mm)<br/>
 Integrated Wideband Lambda Controller with Bosch CJ125 and LSU 4.9<br/>
 4-Layer highly integrated design - hand soldering possible but only recommended to people with really experienced soldering skills.  Hardware is optimized for assembly by professional assembly manufacturer<br/>
 supports 4 cylinder full sequential<br/>
 
 4 high impedance injectors<br/>
-4 active ignition coils or 1 passive ignition coil with separate ground plane (optional)<br/>
+4 active ignition coils<br/>
 1 crankshaft sensor with MAX9926 VR-conditioner<br/>
 1 hall input for camshaft sensor<br/>
 6 analog inputs: CLT, IAT, TPS, BAT, LMM, MAP<br/>
@@ -33,26 +33,27 @@ USB programming interface with CP2102<br/>
 25.04.2022: Version 0.1.2 is running on a real car after two corrections which can be done manually. See correction proposals on issues tab here in GitHub. 
 Next and hopefully final version will follow up soon.<br/>
 06.05.2022: Final version is getting closer. Also added some information how to wire the connector (interactive page): http://oelprinz.org/products/BlitzboxBL49sp/documentation/V0.1.2/wiki/pinout_V0.1.2_Connector_top_side.html<br/>More information/documentation coming soon<br/>
+26.08.2022: Version 0.1.3 has been released<br/>
 
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
 <br/>
-Quick link to Rev0.1.2 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.1.2/schematics.pdf <br/>
+Quick link to Rev0.1.3 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.1.3/schematics_blitzbox_v0.1.3.pdf <br/>
 
 Quick link to Rev0.1.2 iBOM: http://oelprinz.org/products/BlitzboxBL49sp/hardware/V0.1.2/iBOM/ibom.html <br/>
 
 <p align="center">
   <br/>
-  <img src="hardware/Rev0.1.2/2022-04-23-Board-Blitzbox-V0.1.2_top.png" width="710" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.1.2/2022-04-23-Board-Blitzbox-V0.1.2_bottom.png" width="710" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.1.2/2021-12-06-Board-Blitzbox-V0.1.2.png" width="710" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.1.2/top.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.1.2/bottom.png" width="350" alt="accessibility text"><br/>
-  <img src="hardware/Rev0.1.2/internal_plane1.png" width="350" title="Internal Plane 1">
-  <img src="hardware/Rev0.1.2/internal_plane2.png" width="350" title="Internal Plane 2">
-  <img src="hardware/Rev0.1.2/top_layer.png" width="350" title="Top Side">
-  <img src="hardware/Rev0.1.2/bottom_layer.png" width="350" alt="accessibility text">
-  <img src="hardware/Rev0.1.2/assembly.jpg" width="710" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.1.3/2022-08-26-Board-Blitzbox-V0.1.2_top.png" width="710" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.1.3/2022-08-26-Board-Blitzbox-V0.1.2_bottom.png" width="710" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.1.3/2022-08-26-Board-Blitzbox-V0.1.3.png" width="710" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.1.3/top.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.1.3/bottom.png" width="350" alt="accessibility text"><br/>
+  <img src="hardware/Rev0.1.3/internal_plane1.png" width="350" title="Internal Plane 1">
+  <img src="hardware/Rev0.1.3/internal_plane2.png" width="350" title="Internal Plane 2">
+  <img src="hardware/Rev0.1.3/top_layer.png" width="350" title="Top Side">
+  <img src="hardware/Rev0.1.3/bottom_layer.png" width="350" alt="accessibility text">
+  <img src="hardware/Rev0.1.3/assembly.jpg" width="710" alt="accessibility text"><br/>
 </p>
 <br/>
 <p align="center">
