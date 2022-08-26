@@ -23,17 +23,17 @@ Onboard Wideband Lambda Controller with Bosch CJ125 (LSU 4.9)<br/>
 
 USB programming interface with CP2102<br/>
 
-16.09.2020: Version 0.0.6 has gone into production - More infos coming soon....<br/>
+16.09.2020: Betaversion 0.0.6 has gone into production - More infos coming soon....<br/>
 30.09.2020: First initial tests of V0.0.6 have been made. Further tests still have to be done. Until now there was no significant or uncorrectable error in V0.0.6. Some minor improvements will lead to next version V0.0.7<br/>
 01.01.2021: Happy new year - Version 0.0.8 has been released<br/>
-20.05.2021: Version 0.0.9 has been released<br/>
-26.05.2021: Version 0.1.0 has been released<br/>
-26.08.2021: Version 0.1.1 has been released<br/>
-07.12.2021: Version 0.1.2 has been released<br/>
-25.04.2022: Version 0.1.2 is running on a real car after two corrections which can be done manually. See correction proposals on issues tab here in GitHub. 
+20.05.2021: Betaversion 0.0.9 has been released<br/>
+26.05.2021: Betaversion 0.1.0 has been released<br/>
+26.08.2021: Betaversion 0.1.1 has been released<br/>
+07.12.2021: Betaversion 0.1.2 has been released<br/>
+25.04.2022: Betaversion 0.1.2 is running on a real car after two corrections which can be done manually. See correction proposals on issues tab here in GitHub. 
 Next and hopefully final version will follow up soon.<br/>
 06.05.2022: Final version is getting closer. Also added some information how to wire the connector (interactive page): http://oelprinz.org/products/BlitzboxBL49sp/documentation/V0.1.2/wiki/pinout_V0.1.2_Connector_top_side.html<br/>More information/documentation coming soon<br/>
-26.08.2022: Version 0.1.3 has been released<br/>
+26.08.2022: Releasecandidate 1 (0.1.3) has been published<br/>
 
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
