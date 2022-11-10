@@ -1,4 +1,4 @@
-# blitzBOX - release candidate 1<br/>
+# blitzBOX - V0.1.3 - First official released version<br/>
 <br/>
 ultra-low-cost and mini-sized ECU for speeduino firmware (Rev0.1.3 45 x 58 mm)<br/>
 Integrated Wideband Lambda Controller with Bosch CJ125 and LSU 4.9<br/>
@@ -34,6 +34,7 @@ USB programming interface with CP2102<br/>
 Next and hopefully final version will follow up soon.<br/>
 06.05.2022: Final version is getting closer. Also added some information how to wire the connector (interactive page): http://oelprinz.org/products/BlitzboxBL49sp/documentation/V0.1.2/wiki/pinout_V0.1.2_Connector_top_side.html<br/>More information/documentation coming soon<br/>
 26.08.2022: release candidate 1 (0.1.3) has been published<br/>
+10.11.2022: V0.1.3 became first official released version<br/>
 
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
