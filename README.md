@@ -55,8 +55,8 @@ Quick link to Rev0.1.4 iBOM: http://oelprinz.org/products/BlitzboxBL49sp/hardwar
   <img src="hardware/Rev0.1.4/internal_plane2.png" width="350" title="Internal Plane 2">
   <img src="hardware/Rev0.1.4/top_layer.png" width="350" title="top_layer">
   <img src="hardware/Rev0.1.4/bottom_layer.png" width="350" alt="bottom_layer">
-  <img src="hardware/Rev0.1.4/assembly_solderside.png" width="710" alt="assembly_solderside"><br/>
-  <img src="hardware/Rev0.1.4/assembly_connectorside.png" width="710" alt="assembly_connectorside"><br/>
+  <img src="hardware/Rev0.1.4/assembly_solderside_V0.1.4.png" width="710" alt="assembly_solderside"><br/>
+  <img src="hardware/Rev0.1.4/assembly_connectorside_V0.1.4.png" width="710" alt="assembly_connectorside"><br/>
 </p>
 <br/>
 <p align="center">
