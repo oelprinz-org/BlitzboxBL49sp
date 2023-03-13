@@ -17,7 +17,7 @@ Onboard Wideband Lambda Controller with Bosch CJ125 (LSU 4.9)<br/>
 
 1 fuel pump out<br/>
 1 idle valve out<br/>
-1 tacho out<br/>
+1 tacho out (5/12V)<br/>
 1 boost out (optional with IGN_D out)<br/>
 1 fan out<br/>
 
