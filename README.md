@@ -37,7 +37,7 @@ Next and hopefully final version will follow up soon.<br/>
 10.11.2022: V0.1.3 became first official released version<br/>
 13.02.2023: V0.1.4 minor updates on smd footprints<br/>
 13.03.2023: V0.1.5 minor updates<br/>
-22.03.2023: V0.1.6 minor updates on power supply<br/>
+22.03.2023: V0.1.6 minor updates on power supply - release candidate for final version<br/>
 
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
