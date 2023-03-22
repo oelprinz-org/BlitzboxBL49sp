@@ -1,6 +1,6 @@
-# blitzBOX - V0.1.5 - minor updates<br/>
+# blitzBOX - V0.1.6 - minor updates on power supply<br/>
 <br/>
-ultra-low-cost and mini-sized ECU for speeduino firmware (Rev0.1.5 45 x 58 mm)<br/>
+ultra-low-cost and mini-sized ECU for speeduino firmware (Rev0.1.6 45 x 58 mm)<br/>
 Integrated Wideband Lambda Controller with Bosch CJ125 and LSU 4.9<br/>
 4-Layer highly integrated design - hand soldering possible but only recommended to people with really experienced soldering skills.  Hardware is optimized for assembly by professional assembly manufacturer<br/>
 supports 4 cylinder full sequential<br/>
@@ -37,27 +37,28 @@ Next and hopefully final version will follow up soon.<br/>
 10.11.2022: V0.1.3 became first official released version<br/>
 13.02.2023: V0.1.4 minor updates on smd footprints<br/>
 13.03.2023: V0.1.5 minor updates<br/>
+22.03.2023: V0.1.6 minor updates on power supply<br/>
 
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
 <br/>
-Quick link to Rev0.1.5 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.1.5/schematics_blitzbox_v0.1.5.pdf <br/>
+Quick link to Rev0.1.6 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp/blob/master/hardware/Rev0.1.6/schematics_blitzbox_v0.1.6.pdf <br/>
 
-Quick link to Rev0.1.5 iBOM: http://oelprinz.org/products/BlitzboxBL49sp/hardware/V0.1.5/iBOM/ibom.html <br/>
+Quick link to Rev0.1.6 iBOM: http://oelprinz.org/products/BlitzboxBL49sp/hardware/V0.1.6/iBOM/ibom.html <br/>
 
 <p align="center">
   <br/>
-  <img src="hardware/Rev0.1.5/2022-09-22-Board-Blitzbox-V0.1.3_top.png" width="710" alt="Board-Blitzbox-V0.1.3_top"><br/>
-  <img src="hardware/Rev0.1.5/2022-09-22-Board-Blitzbox-V0.1.3_bottom.png" width="710" alt="Board-Blitzbox-V0.1.3_bottom"><br/>
-  <img src="hardware/Rev0.1.5/2023-03-13-Board-Blitzbox-V0.1.5.png" width="710" alt="Board-Blitzbox-V0.1.5"><br/>
-  <img src="hardware/Rev0.1.5/top.png" width="350" title="top">
-  <img src="hardware/Rev0.1.5/bottom.png" width="350" alt="bottom"><br/>
-  <img src="hardware/Rev0.1.5/internal_plane1.png" width="350" title="Internal Plane 1">
-  <img src="hardware/Rev0.1.5/internal_plane2.png" width="350" title="Internal Plane 2">
-  <img src="hardware/Rev0.1.5/top_layer.png" width="350" title="top_layer">
-  <img src="hardware/Rev0.1.5/bottom_layer.png" width="350" alt="bottom_layer">
-  <img src="hardware/Rev0.1.5/assembly_solderside_V0.1.5.png" width="710" alt="assembly_solderside"><br/>
-  <img src="hardware/Rev0.1.5/assembly_connectorside_V0.1.5.png" width="710" alt="assembly_connectorside"><br/>
+  <img src="hardware/Rev0.1.6/2022-09-22-Board-Blitzbox-V0.1.3_top.png" width="710" alt="Board-Blitzbox-V0.1.3_top"><br/>
+  <img src="hardware/Rev0.1.6/2022-09-22-Board-Blitzbox-V0.1.3_bottom.png" width="710" alt="Board-Blitzbox-V0.1.3_bottom"><br/>
+  <img src="hardware/Rev0.1.6/2023-03-22-Board-Blitzbox-V0.1.6.png" width="710" alt="Board-Blitzbox-V0.1.6"><br/>
+  <img src="hardware/Rev0.1.6/top.png" width="350" title="top">
+  <img src="hardware/Rev0.1.6/bottom.png" width="350" alt="bottom"><br/>
+  <img src="hardware/Rev0.1.6/internal_plane1.png" width="350" title="Internal Plane 1">
+  <img src="hardware/Rev0.1.6/internal_plane2.png" width="350" title="Internal Plane 2">
+  <img src="hardware/Rev0.1.6/top_layer.png" width="350" title="top_layer">
+  <img src="hardware/Rev0.1.6/bottom_layer.png" width="350" alt="bottom_layer">
+  <img src="hardware/Rev0.1.6/assembly_solderside_V0.1.6.png" width="710" alt="assembly_solderside"><br/>
+  <img src="hardware/Rev0.1.6/assembly_connectorside_V0.1.6.png" width="710" alt="assembly_connectorside"><br/>
 </p>
 <br/>
 <p align="center">
