@@ -53,7 +53,7 @@ Quick link to Rev0.1.8 iBOM: http://oelprinz.org/products/BlitzboxBL49sp/hardwar
   <br/>
   <img src="hardware/Rev0.1.8/2022-09-22-Board-Blitzbox-V0.1.3_top.png" width="710" alt="Board-Blitzbox-V0.1.3_top"><br/>
   <img src="hardware/Rev0.1.8/2022-09-22-Board-Blitzbox-V0.1.3_bottom.png" width="710" alt="Board-Blitzbox-V0.1.3_bottom"><br/>
-  <img src="hardware/Rev0.1.8/2023-04-06-Board-Blitzbox-V0.1.8.png" width="710" alt="Board-Blitzbox-V0.1.8"><br/>
+  <img src="hardware/Rev0.1.8/2023-04-19-Board-Blitzbox-V0.1.8.png" width="710" alt="Board-Blitzbox-V0.1.8"><br/>
   <img src="hardware/Rev0.1.8/top.png" width="350" title="top">
   <img src="hardware/Rev0.1.8/bottom.png" width="350" alt="bottom"><br/>
   <img src="hardware/Rev0.1.8/internal_plane1.png" width="350" title="Internal Plane 1">
