@@ -50,6 +50,45 @@ Quick link to Rev0.1.9 schematic: https://github.com/oelprinz-org/BlitzboxBL49sp
 
 Quick link to Rev0.1.9 iBOM: http://oelprinz.org/products/BlitzboxBL49sp/hardware/V0.1.9/iBOM/ibom.html <br/>
 
+
+### Bosch CJ125 (LQFP32 package) part numbers
+
+|Bosch part number|
+|:----------------|
+|30615|
+|40103|
+|30522|
+
+### Suitable Bosch lambda probes
+
+Basically, the Bosch probes whose numbers start with **0 258 017** will fit, also Bosch **0 281 004**.  
+Bosch numbers beginning with **0 258 007** are *LSU 4.2* probes and will not fit.
+
+|Bosch number  |Length overall|Comment|
+|--------------|--------------|-------|
+|0 258 017 012 |1060mm||
+|0 258 017 025 |1000mm|Bosch motorsport part|
+|0 281 004 028 |540mm|common probe for diesel engines|
+|0 258 017 029 |620mm|grey, used by BMW after 09/2006 (1178 7539124)|
+|0 258 017 038 |340mm|grey, used by BMW (11787537984)|
+|0 258 017 092 |950mm|black, used by BMW (1178 7540167)|
+|0 258 017 126 |680mm|black, used by BMW after 09/2006 (1178 7561410)|
+|0 281 004 150 |1215mm||
+|0 281 004 184 |1000mm||
+|...|||
+
+### LSU4.9 probe pinout
+
+|Pin#|Color|Description|Symbol|
+|----|-----|--------|-----------|
+|1|red|Pump current APE|IP|
+|2|yellow|Virtual ground IPN|VM|
+|3|white|Heater voltage H-|Uh-|
+|4|grey|Heater voltaget H+|Uh+|
+|5|green|Trim Resistor RT|IA|
+|6|black|Nernst voltage UN|RE|
+
+
 <p align="center">
   <br/>
   <img src="hardware/Rev0.1.9/2022-09-22-Board-Blitzbox-V0.1.3_top.png" width="710" alt="Board-Blitzbox-V0.1.3_top"><br/>
