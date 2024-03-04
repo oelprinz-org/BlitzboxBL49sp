@@ -1,4 +1,4 @@
-# blitzBOX - V0.1.9 - current stable version<br/>
+# blitzBOX V0.1.9 - current stable version<br/>
 <br/>
 ultra-low-cost and mini-sized ECU for speeduino firmware (Rev0.1.9 45 x 58 mm)<br/>
 Integrated Wideband Lambda Controller with Bosch CJ125 and LSU 4.9<br/>
