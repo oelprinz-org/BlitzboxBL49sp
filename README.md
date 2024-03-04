@@ -1,4 +1,4 @@
-# blitzBOX - V0.1.9 - release candidate for final version<br/>
+# blitzBOX - V0.1.9 - current stable version<br/>
 <br/>
 ultra-low-cost and mini-sized ECU for speeduino firmware (Rev0.1.9 45 x 58 mm)<br/>
 Integrated Wideband Lambda Controller with Bosch CJ125 and LSU 4.9<br/>
@@ -42,6 +42,7 @@ Next and hopefully final version will follow up soon.<br/>
 06.04.2023: V0.1.7 added more ground planes - release candidate for final version<br/>
 19.04.2023: V0.1.8 added optional Bluetooth module - release candidate for final version<br/>
 19.04.2023: V0.1.9 added solder pad for +5V on VR2- (12V Hall Input for CAM) - release candidate for final version<br/>
+04.03.2024: V0.1.9 released as current stable version<br/>
 
 
 [Link to the original speeduino project](https://www.speeduino.com "speeduino homepage")<br/>
