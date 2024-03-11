@@ -12,7 +12,6 @@ supports 4 cylinder full sequential<br/>
 6 analog inputs: CLT, IAT, TPS, BAT, LMM, MAP<br/>
 1 optional baro sensor MPXH6400A on connector side of pcb<br/>
 1 digital input for disco swaggering (aka. launch control)<br/>
-optional Bluetooth module for wireless connection<br/>
 
 Onboard Wideband Lambda Controller with Bosch CJ125 (LSU 4.9)<br/>
 
