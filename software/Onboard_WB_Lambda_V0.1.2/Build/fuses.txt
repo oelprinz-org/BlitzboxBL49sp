@@ -1,6 +1,0 @@
-fuse settings for the ATmega328P
-
-L   0xFF
-H   0xDA
-E   0xFD
-LB  0xCF
