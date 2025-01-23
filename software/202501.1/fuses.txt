@@ -1,0 +1,6 @@
+fuse settings for the ATmega2560
+
+L   0xFF
+H   0xD8
+E   0xFD
+LB  0xCF
